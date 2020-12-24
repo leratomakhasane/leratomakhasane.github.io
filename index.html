@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head> 
+        <!-- Required meta tags -->
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!--Title of the site-->
         <title>LERATO RAMPAI | PORTFOLIO</title>
 
+        <!--Main CSS file-->
         <link rel="stylesheet" href="design.css">
     </head>
 
     <body>
-        <header>
-            <a href="index.html">Lerato Rampai</a>
-
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+        <header class="header">
+            <nav class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                    <div class="nav-title">
+                        <a href="index.html">Lerato Rampai</a>
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Certificates</a>
+                    <a href="#">Resume</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+                </div>
             </nav>
         </header>
+
+        <!--Hero section-->
+        <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="hero-container" data-aos="fade-in">
+            <h1>Arwaz Khan</h1>
+            <p>I'm <span class="typejs"></span></p>
+            </div>
+        </section>
+        <!--hero section end-->
+
+        <section id="home">
+            <img src="lerato.png">
+            <p>Lerato Rampai</p>
+            <p>I am a <span class="typejs"></span></p>
+            <p>email linkedin github twitter facebook instagram codersrank 
+        </section>
     </body>
 </html>
