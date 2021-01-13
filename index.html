@@ -1,197 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--Title of the site-->
-        <title>LERATO RAMPAI | PORTFOLIO</title>
+    <!--Title of the site-->
+    <title>LERATO RAMPAI | PORTFOLIO</title>
 
-        <!--Main CSS file-->
-        <link rel="stylesheet" href="design.css">
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Main CSS file-->
+    <link rel="stylesheet" href="design.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-        <style>
-        /* CSS RESET */
-* {
-  margin: 0;
-  padding: 0;
-  /* Set background and text color */
-  /*background-color: #424242;*/
-  color: red;
-  /*font-family:Helvetica;*/
-  font-weight:normal
-    
-}
-
-/* ALIGN CONTENT */
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  /* Remove horizontal 'justify-content' center if you want the base text not to move */
-  justify-content: center;
-  align-items: center;
-}
-.container h1{
-    color: black;
-}
-/* ADD CURSOR */
-.txt-type > .txt {
-  border-right: 0.08rem solid #fff;
-  padding-right: 2px;
-  /* Animating the cursor */
-  animation: blink 0.6s infinite;
-}
-
-/* ANIMATION */
-@keyframes blink {
-  0% {
-    border-right: 0.08rem solid rgba(255, 255, 255, 1);
-  }
-  100% {
-    border-right: 0.08rem solid rgba(255, 255, 255, 0.2);
-  }
-}
-</style>
-    </head>
-
-    <body>
-        <header class="header">
-            <nav class="nav">
-                <input type="checkbox" id="nav-check">
-                <div class="nav-header">
-                    <div class="nav-title">
-                        <a href="index.html">Lerato Rampai</a>
-                    </div>
-                </div>
-                <div class="nav-btn">
-                    <label for="nav-check">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                </div>
-                
-                <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Certificates</a>
-                    <a href="#">Resume</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Contact</a>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-            <section>
-                <div class="small-12 large-8 large-offset-2 columns text-center">
-					<img class="img-circle" src="https://pbs.twimg.com/profile_images/1322595455977611264/UMnvQPS0.jpg" alt="headshot">
-					<div class="details">
-                        <i class="fa fa-github" style="font-size:48px;color:red"></i>
-                        <i class='fa fa-facebook' style='font-size:48px;color:red'></i>
-                        <img src="https://codersrank.io/wp-content/uploads/2019/11/cr-logo-horizontal-1.svg">
-                        <!-- Add font awesome icons -->
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <img src="https://pbs.twimg.com/profile_images/1052147119442878464/8mUA-__p.jpg" style='width:48px;color:red'>
-					</div>
-				</div>
-            </section>
-        </main>
-
-        <div class="container">
-        <h1>
-            Hi, I'm Lerato. I <br><br>
-            <!-- The words that we want to have typerwriter effect -->
-            <span class="txt-type" data-wait="3000" data-words='["am a Front-end Developer", "love everything about code", "am a fast learner"]'></span>
-        </h1>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html">Lerato Rampai</a>
+          </div>
         </div>
-        <!--Lerato Pic section-
-        <section id="lerato-pic">
-            <div class="container">
-                <h1>Lerato Rampai</h1>
-                <p>I'm <span class="typejs"></span></p>
-            </div>
-        </section>
-        -hero section end-
 
-        <section id="home">
-            <img src="lerato.png">
-            <p>Lerato Rampai</p>
-            <p>I am a <span class="typejs"></span></p>
-            <p>email linkedin github twitter facebook instagram codersrank 
-        </section>-->
-    </body>
-    <script>
-	class TypeWriter {
-      constructor(txtElement, words, wait = 3000) {
-        this.txtElement = txtElement;
-        this.words = words;
-        this.txt = "";
-        this.wordIndex = 0;
-        this.wait = parseInt(wait, 10);
-        this.type();
-        this.isDeleting = false;
-      }
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#">Certificates</a>
+          <!--<a href="#">Resume</a>-->
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-      type() {
-        // Current index of word
-        const current = this.wordIndex % this.words.length;
-        // Get full text of current word
-        const fullTxt = this.words[current];
+    <main>
+      <section id="banner">
+        <header>
+          <img class="headshot" src="lerato.jpg" style="width: 300px;">
+        </header>
+        <div class="details">
+          <h2>Hi, I'm Lerato. I...<br>
+            <span id="writting-text" class="txt-type" data-wait="3000" 
+            data-words='["am a Front End Web Developer.", "love everything about code.", "develop meaningful applications."]'></span>
+          </h2>
+          <a href="mailto:lerato.rampail@gmail.com"><!--<i class="fa fa-email fa-2x"></i>-->Email</a>
+          <a href="https://github.com/lerato-rampai"><!--<i class="fa fa-github fa-2x" style="font-size:30px;"></i>-->Github</a>
+          <a href="https://linkedin.com/in/lerato-rampai"><!--<i class="fa fa-linkedin fa-2x" style="font-size:30px;"></i>-->Linkedin</a>
+          <a href="https://twitter.com/LeratoRampai1"><!--<i class="fa fa-twitter fa-2x" style="font-size:30px;"></i>-->Twitter</a>
+          <a href="https://m.facebook.com/public/lerato.rampai.7"><!--<i class="fa fa-facebook fa-2x" style="font-size:30px;"></i>-->Facebook</a>
+          <a href="https://instagram.com/lerato_rampai"><!--<i class="fa fa-instagram fa-2x" style="font-size:30px;"></i>-->Instagram</a>
+        </div>
+      </section>
 
-        // Check if deleting
-        if (this.isDeleting) {
-          // Remove characters
-          this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-          // Add charaters
-          this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
+      <section id="about">
+        <header>
+          <h2>About me</h2>
+        </header>
+      </section>
+    </main>
 
-        // Insert txt into element
-        this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
-
-        // Initial Type Speed
-        let typeSpeed = 50;
-
-        if (this.isDeleting) {
-          // Increase speed by half when deleting
-          typeSpeed /= 2;
-        }
-
-        // If word is complete
-        if (!this.isDeleting && this.txt === fullTxt) {
-          // Make pause at end
-          typeSpeed = this.wait;
-          // Set delete to true
-          this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === "") {
-          this.isDeleting = false;
-          // Move to next word
-          this.wordIndex++;
-          // Pause before start typing
-          typeSpeed = 500;
-        }
-
-        setTimeout(() => this.type(), typeSpeed);
-      }
-    }
-
-    // Init On DOM Load
-    document.addEventListener("DOMContentLoaded", init);
-
-    // Init App
-    function init() {
-      const txtElement = document.querySelector(".txt-type");
-      const words = JSON.parse(txtElement.getAttribute("data-words"));
-      const wait = txtElement.getAttribute("data-wait");
-      // Init TypeWriter
-      new TypeWriter(txtElement, words, wait);
-    }
-</script>
+    <!--Script file containing animation for type writer-->
+    <script src="design.js"></script>
+  </body>
 </html>
