@@ -157,6 +157,12 @@ header > .headshot{
         border-right: 0.08rem solid rgba(255, 255, 255, 0.2);
     }
 } 
+
+#banner .social{
+    padding-right: 30px;
+    font-size: 36px;
+    color: #0e153a;
+}
 /*banner end*/
 
 
