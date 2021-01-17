@@ -162,32 +162,10 @@ header > .headshot{
     padding-right: 30px;
     font-size: 36px;
     color: #0e153a;
+    margin-top: -2em;
 }
 /*banner end*/
 
-
-
-
-
-/*** teaching ***/
-#teaching {
-	padding: 6em 4em 3em;
-}
-
-#teaching h2 {
-	color: #595959;
-}
-
-#teaching .tag-line {
-	color: #848282;
-	font-size: 1.4em;
-}
-
-#teaching .teaching-domains {
-	height: 500px;
-	width: auto;
-	margin-top: -4em;
-}
 
 
 
