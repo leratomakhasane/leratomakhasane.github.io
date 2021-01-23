@@ -304,6 +304,7 @@ section{
     font-weight: 400;
 }
 
+
 /*responsive timeline*/
 @media(max-width: 790px){
     .wrapper .center-line{
