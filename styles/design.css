@@ -209,6 +209,7 @@ section{
     margin: 50px auto;
     padding: 0 20px;
     position: relative;
+    margin-top: -2em;
 }
 .wrapper .center-line{
     position: absolute;
@@ -292,7 +293,7 @@ section{
 }
 .row section p{
     color: #ffffff;
-    margin: 10px 0 17px 0;
+    margin: 5px 0 6px 0;
 }
 .row section .bottom a{
     text-decoration: none;
@@ -303,6 +304,37 @@ section{
     font-size: 17px;
     font-weight: 400;
 }
+.row section .bottom #textButton,
+.row section .bottom .textButton{
+    text-decoration: none;
+    background: #ffffff;
+    color: #0e153a;
+    padding: 7px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.row section .bottom #textButton:active,
+.row section .bottom .textButton:active{
+    text-decoration: none;
+    background: #ffffff;
+    color: #0e153a;
+    padding: 7px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* Initially, hide the extra text that 
+			can be revealed with the button */ 
+            .moreText { 
+
+                /* Display nothing for the element */ 
+                display: none; 
+            } 
 
 
 /*responsive timeline*/
