@@ -295,17 +295,10 @@ section{
     color: #ffffff;
     margin: 5px 0 6px 0;
 }
-.row section .bottom a{
-    text-decoration: none;
-    background: #ffffff;
-    color: #0e153a;
-    padding: 7px 15px;
-    border-radius: 5px;
-    font-size: 17px;
-    font-weight: 400;
-}
-.row section .bottom #textButton,
-.row section .bottom .textButton{
+.row section .bottom #textButton1,
+.row section .bottom #textButton2,
+.row section .bottom #textButton3,
+.row section .bottom #textButton4{
     text-decoration: none;
     background: #ffffff;
     color: #0e153a;
@@ -316,8 +309,10 @@ section{
     font-weight: 400;
     cursor: pointer;
 }
-.row section .bottom #textButton:active,
-.row section .bottom .textButton:active{
+.row section .bottom #textButton1:active,
+.row section .bottom #textButton2:active,
+.row section .bottom #textButton3:active,
+.row section .bottom #textButton4:active{
     text-decoration: none;
     background: #ffffff;
     color: #0e153a;
@@ -329,12 +324,12 @@ section{
     cursor: pointer;
 }
 /* Initially, hide the extra text that 
-			can be revealed with the button */ 
-            .moreText { 
+can be revealed with the button */ 
+#moreText1, #moreText2, #moreText3, #moreText4 { 
 
-                /* Display nothing for the element */ 
-                display: none; 
-            } 
+    /* Display nothing for the element */ 
+    display: none; 
+} 
 
 
 /*responsive timeline*/
