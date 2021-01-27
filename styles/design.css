@@ -364,6 +364,28 @@ can be revealed with the button */
 
 
 
+/*projects start*/
+/*about me/ who am i?*/
+#projects{
+    text-align: center;
+    background-color: #ffffff;
+    color: #0e153a;
+}
+#about p{
+    margin-top: -2em;
+}
+#about button{
+    color: #ffffff;
+    background-color: #0e153a;
+    font-weight: bold;
+    border: 2px solid #0e153a;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
 
           
 
