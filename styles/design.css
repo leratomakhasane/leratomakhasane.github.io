@@ -387,6 +387,9 @@ can be revealed with the button */
     width:50%;
     height: 100%;
 }
+#projects .project-information .list-left-aligned {
+    text-align: left !important;
+}
 #projects button{
     color: #ffffff;
     background-color: #0e153a;
